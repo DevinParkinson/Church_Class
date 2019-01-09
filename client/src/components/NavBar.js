@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu } from 'semantic-ui-react';
+import { Menu, Image } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { handleLogout } from '../actions/auth';
@@ -12,6 +12,7 @@ class NavBar extends Component {
       return (
         <Menu.Menu position='right'>
           <Menu.Item
+            style={{color: 'white'}}
             name='Logout'
             onClick={() => dispatch(handleLogout(history))}
           />
@@ -19,12 +20,12 @@ class NavBar extends Component {
       );
     }
     return (
-      <Menu.Menu position='right'>
+      <Menu.Menu position='right' style={{color: 'white'}}>
         <Link to='/register'>
-          <Menu.Item name='Register' />
+          <Menu.Item style={{color: 'white'}} name='Register' />
         </Link>
         <Link to='/login'>
-          <Menu.Item name='Login' />
+          <Menu.Item style={{color: 'white'}} name='Login' />
         </Link>
       </Menu.Menu>
     );
@@ -32,10 +33,10 @@ class NavBar extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{backgroundColor: "#1CA8DD"}}>
         <Menu pointing secondary>
           <Link to='/'>
-            <Menu.Item name='home' />
+            <Image src="https://static-s.aa-cdn.net/img/ios/319828221/acd88e5346d8d295fe80bc4436ca861e" style={{borderRadius: '50%', height: "6vh"}}/>
           </Link>
           { this.rightNavs() }
         </Menu>
