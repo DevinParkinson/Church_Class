@@ -15,7 +15,6 @@ class Home extends Component {
         </div>
         <Header as='h2' style={{textAlign: "center", position: "absolute", top: "30%", left: "35%", color: "white"}}>To Get Started, Click on the current week below.</Header>
       </div>
-
     );
   }
 }
