@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Header, Grid, Card, Divider } from 'semantic-ui-react';
 import TextLoop from "react-text-loop"
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
   render() {
@@ -20,9 +21,11 @@ class Home extends Component {
         <Grid columns={2}>
           <Grid.Row>
             <Grid.Column>
-              <Card.Content style={{backgroundImage: 'url(https://www.lds.org/bc/content/bible-videos/videos/mary-and-elizabeth-rejoice-together/images/mary-visits-elisabeth.jpg)', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', marginLeft: '8vw', marginTop: '5vh'}}>
-                <div style={{height: '25vh', width: 'auto', color: 'white', fontSize: '16px'}}>Week 1-ish...</div>
-              </Card.Content>
+              <Link to="/week1">
+                <Card.Content style={{backgroundImage: 'url(https://www.lds.org/bc/content/bible-videos/videos/mary-and-elizabeth-rejoice-together/images/mary-visits-elisabeth.jpg)', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', marginLeft: '8vw', marginTop: '5vh'}}>
+                  <div style={{height: '25vh', width: 'auto', color: 'white', fontSize: '16px'}}>Week 1-ish...</div>
+                </Card.Content>
+              </Link>
             </Grid.Column>
           </Grid.Row>
         </Grid>
