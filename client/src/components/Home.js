@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Header, Grid, Card, Divider } from 'semantic-ui-react';
+import { Header, Grid, Card } from 'semantic-ui-react';
 import TextLoop from "react-text-loop"
 import { Link } from 'react-router-dom';
+
 
 class Home extends Component {
   render() {
@@ -16,7 +17,6 @@ class Home extends Component {
             </TextLoop>
           </div>
           <Header as='h2' style={{textAlign: "center", position: "absolute", top: "30%", left: "35%", color: "white"}}>To Get Started, Click on the current week below.</Header>
-          <Divider />
         </div>
         <Grid columns={2}>
           <Grid.Row>
@@ -24,6 +24,13 @@ class Home extends Component {
               <Link to="/week1">
                 <Card.Content style={{backgroundImage: 'url(https://www.lds.org/bc/content/bible-videos/videos/mary-and-elizabeth-rejoice-together/images/mary-visits-elisabeth.jpg)', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', marginLeft: '8vw', marginTop: '5vh'}}>
                   <div style={{height: '25vh', width: 'auto', color: 'white', fontSize: '16px'}}>Week 1-ish...</div>
+                </Card.Content>
+              </Link>
+            </Grid.Column>
+            <Grid.Column>
+              <Link to="/week2">
+                <Card.Content style={{backgroundImage: 'url(https://mobile-cdn.lds.org/9d/bb/9dbb3e9ff68280c753186302a5c3e85929a1802e/three_wise_men_traveling.jpeg)', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', marginLeft: '8vw', marginTop: '5vh'}}>
+                  <div style={{height: '25vh', width: 'auto', color: 'white', fontSize: '16px'}}>Week 2: January 14-20</div>
                 </Card.Content>
               </Link>
             </Grid.Column>

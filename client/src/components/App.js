@@ -5,11 +5,11 @@ import Login from './Login';
 import Register from './Register';
 import Flash from './Flash';
 import Home from './Home';
-import ProtectedRoute from './ProtectedRoute';
 import AuthRoute from './AuthRoute';
 import FetchUser from './FetchUser';
 import { Switch, Route } from 'react-router-dom';
 import Week1 from './Week1'
+import Week2 from './Week2'
 
 class App extends Component {
   render() {
@@ -23,6 +23,7 @@ class App extends Component {
             <AuthRoute exact path='/login' component={Login} />
             <AuthRoute exact path='/register' component={Register} />
             <Route exact path="/week1" component={Week1} />
+            <Route exact path="/week2" component={Week2} />
             <Route component={NoMatch} />
           </Switch>
         </FetchUser>
