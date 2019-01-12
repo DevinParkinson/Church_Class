@@ -4028,18 +4028,6 @@ follow-redirects@^1.0.0, follow-redirects@^1.3.0:
   dependencies:
     debug "=3.1.0"
 
-font-picker-react@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/font-picker-react/-/font-picker-react-2.1.0.tgz#1a31fd03d61e6d40e7b01038287725139e7703c6"
-  integrity sha512-8qQJfeCU0ir5EWcd9veCqtDHUN69kCeyl43Cj0h+ZOOiSap5m5DMz452Df2jpYfRohFC2HCV5wVn5q2/kts31Q==
-  dependencies:
-    font-picker "^2.1.0"
-
-font-picker@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/font-picker/-/font-picker-2.1.0.tgz#ed545c8b7275fd47f3055e6f5576a8d2a517cbca"
-  integrity sha512-EOBiflfnrIdwcBNoOSLGVzCG6MU8CNGBe0rc1Q19b8BlcAQnq+IQEa2dWFInubl0a/Z8CnTN8CYQCI4yPWIipg==
-
 for-in@^0.1.3:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-0.1.8.tgz#d8773908e31256109952b1fdb9b3fa867d2775e1"
@@ -8181,7 +8169,7 @@ react-dev-utils@^7.0.1:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-react-dom@^16.0.0, react-dom@^16.7.0:
+react-dom@^16.7.0:
   version "16.7.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.7.0.tgz#a17b2a7ca89ee7390bc1ed5eb81783c7461748b8"
   integrity sha512-D0Ufv1ExCAmF38P2Uh1lwpminZFRXEINJe53zRAbm4KPwSyd6DY/uDoS0Blj9jvPpn1+wivKpZYc8aAAN/nAkg==
@@ -8200,11 +8188,6 @@ react-fast-compare@2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
-
-react-gradient-text@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/react-gradient-text/-/react-gradient-text-0.1.0.tgz#9537395bc10f569968c1308db060b7167f71741c"
-  integrity sha1-lTc5W8EPVplowTCNsGC3Fn9xdBw=
 
 react-is@^16.3.2, react-is@^16.6.3:
   version "16.7.0"
@@ -8231,15 +8214,6 @@ react-redux@^6.0.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
     react-is "^16.6.3"
-
-react-reveal-text@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/react-reveal-text/-/react-reveal-text-0.1.1.tgz#97ed4c3cbd3671c0d79bcb4c80459c2ca69ef402"
-  integrity sha512-JRufU8QDBB3qsb0d1o6vS5R2QoLP5GiuKvmDWtMXoSRmNzSXky7fWEYgK1f0sByt8JElL38waQR2JUrL0OGERg==
-  dependencies:
-    prop-types "^15.6.0"
-    react "^16.0.0"
-    react-dom "^16.0.0"
 
 react-router-dom@^4.3.1:
   version "4.3.1"
@@ -8340,7 +8314,7 @@ react-timeout@^1.0.1:
     hoist-non-react-statics "^2.3.1"
     object-assign "^4.0.1"
 
-react@^16.0.0, react@^16.7.0:
+react@^16.7.0:
   version "16.7.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.7.0.tgz#b674ec396b0a5715873b350446f7ea0802ab6381"
   integrity sha512-StCz3QY8lxTb5cl2HJxjwLFOXPIFQp+p+hxQfc8WE0QiLfCtIlKj8/+5tjjKm8uSTlAW+fCPaavGFS06V9Ar3A==
