@@ -3,7 +3,6 @@ import { Header, Grid, Card } from 'semantic-ui-react';
 import TextLoop from "react-text-loop"
 import { Link } from 'react-router-dom';
 
-
 class Home extends Component {
   render() {
     return (

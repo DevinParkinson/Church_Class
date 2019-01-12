@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Header } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import { Wave } from 'react-animated-text'
 
 
 class Home extends Component {
@@ -16,6 +17,7 @@ class Home extends Component {
         <Header as='h4' textAlign="center">
           We have come to worship Him.
         </Header>
+        <Wave text="Well, what do you think?" effect="verticalFadeIn" effectChange={1} />
       </div>
     );
   }
