@@ -8,35 +8,16 @@ class Home extends Component {
     return (
       <div>
         <Header as="h1" textAlign="center">
-          January 14-20
+          January 7-13
         </Header>
         <Header as="h2" textAlign="center">
           Luke 2; Matthew 2
         </Header>
-        <Header as='h4' textAlign="center">
-          We have come to worship Him.
-        </Header>
-        <Header>
+        <Header as="h2">
           Who are these people?
         </Header>
-        <List bulleted>
-          <Modal trigger={<List.Item>Mary and Joseph</List.Item>}>
-            <Modal.Header>
-              Who are Mary and Joseph?
-            </Modal.Header>
-            <Modal.Description>
-              Mary and Joseph were the parents of Jesus Christ. What an amazing responsibility.
-            </Modal.Description>
-            <List bulleted>
-              <List.Item>How would you feel to be the parent of the Son of God?</List.Item>
-              <List.Item>How would you change how you act imagining your future children?</List.Item>
-            </List>
-            <Divider hidden />
-            <Modal.Description><a href="https://www.lds.org/study/scriptures/nt/luke/1.26-56?lang=eng#p26" target="_blank" rel="noopener noreferrer">Luke 1:26-56</a></Modal.Description>
-            <Divider hidden />
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qq7NFiZL6ak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </Modal>
-          <Modal trigger={<List.Item>Elisabeth and Zacharias</List.Item>}>
+        <List bulleted animated verticalAlign="middle">
+          <Modal trigger={<List.Item>Elisabeth and Zacharias</List.Item>} style={{overflow: 'auto'}}>
             <Modal.Header>
               Who are Elisabeth and Zacharias?
             </Modal.Header>
@@ -49,10 +30,35 @@ class Home extends Component {
             <Divider hidden />
             <a href="https://www.lds.org/study/scriptures/nt/luke/1.5-23,59-64?lang=eng#p5" target="_blank" rel="noopener noreferrer">Luke 1: 18-20</a>
             <Divider hidden />
+            <iframe width="380" height="315" src="https://www.youtube.com/embed/YUVvTYLgoBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <Modal.Description>Thoughts?</Modal.Description>
             <Divider hidden />
             <a href="https://www.lds.org/study/scriptures/nt/luke/1.5-23,59-64?lang=eng#p5" target="_blank" rel="noopener noreferrer">Luke 1: 5-23, 59-64</a>
           </Modal>
+          <Modal trigger={<List.Item>Mary and Joseph</List.Item>} style={{overflow: 'auto'}}>
+            <Modal.Header>
+              Who are Mary and Joseph?
+            </Modal.Header>
+            <Modal.Description>
+              Mary and Joseph were the parents of Jesus Christ. What an amazing responsibility.
+            </Modal.Description>
+            <List bulleted animated verticalAlign="middle">
+              <List.Item>How would you feel to be the parent of the Son of God?</List.Item>
+              <List.Item>How would you change how you act imagining your future children?</List.Item>
+            </List>
+            <Divider hidden />
+            <Modal.Description><a href="https://www.lds.org/study/scriptures/nt/luke/1.26-56?lang=eng#p26" target="_blank" rel="noopener noreferrer">Luke 1:26-56</a></Modal.Description>
+            <Divider hidden />
+            <iframe width="380" height="315" src="https://www.youtube.com/embed/Qq7NFiZL6ak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <Divider hidden />
+            <Modal.Description>Notice that Mary questioned the angel as well, but was not punished like Zacharias. Why not?</Modal.Description>
+            <Divider hidden />
+          </Modal>
+        </List>
+        <br/><br/><br/><br/>
+        <Header as='h2'>"With God nothing shall be impossible"</Header>
+        <List animated verticalAlign="middle">
+          <List.Item>What does this mean to you?</List.Item>
         </List>
       </div>
     );
