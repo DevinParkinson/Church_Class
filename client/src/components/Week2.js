@@ -17,7 +17,7 @@ class Home extends Component {
           Who are these people?
         </Header>
         <List bulleted animated verticalAlign="middle">
-          <Modal trigger={<List.Item>Elisabeth and Zacharias</List.Item>} style={{overflow: 'auto'}}>
+          <Modal trigger={<List.Item>Elisabeth and Zacharias</List.Item>} closeIcon>
             <Modal.Header>
               Who are Elisabeth and Zacharias?
             </Modal.Header>
@@ -35,7 +35,7 @@ class Home extends Component {
             <Divider hidden />
             <a href="https://www.lds.org/study/scriptures/nt/luke/1.5-23,59-64?lang=eng#p5" target="_blank" rel="noopener noreferrer">Luke 1: 5-23, 59-64</a>
           </Modal>
-          <Modal trigger={<List.Item>Mary and Joseph</List.Item>} style={{overflow: 'auto'}}>
+          <Modal trigger={<List.Item>Mary and Joseph</List.Item>} closeIcon>
             <Modal.Header>
               Who are Mary and Joseph?
             </Modal.Header>
