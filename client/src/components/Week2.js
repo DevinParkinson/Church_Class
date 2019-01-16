@@ -3,21 +3,21 @@ import { Header, List, Modal, Divider } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
 
-class Home extends Component {
+class Week2 extends Component {
   render() {
     return (
       <div>
         <Header as="h1" textAlign="center">
-          January 7-13
+          Week 2, January 7-13
         </Header>
         <Header as="h2" textAlign="center">
-          Luke 2; Matthew 2
+          <a href="https://www.lds.org/study/scriptures/nt/luke/1?lang=eng" target="_blank" rel="noopener noreferrer">Luke 1</a>; <a href="https://www.lds.org/study/scriptures/nt/matt/1?lang=eng" target="_blank" rel="noopener noreferrer">Matthew 1</a>
         </Header>
-        <Header as="h2">
+        <Header as="h2" style={{marginLeft: '1vw'}}>
           Who are these people?
         </Header>
         <List bulleted animated verticalAlign="middle">
-          <Modal trigger={<List.Item>Elisabeth and Zacharias</List.Item>} closeIcon>
+          <Modal trigger={<List.Item style={{marginLeft: '2vw', color: 'blue'}}>Elisabeth and Zacharias</List.Item>} closeIcon>
             <Modal.Header>
               Who are Elisabeth and Zacharias?
             </Modal.Header>
@@ -28,14 +28,14 @@ class Home extends Component {
               Zacharias was a very righteous man, who worked in the temple. One day he actually was chosen to light the incense in the temple. While there he saw an angel which told him that his wife, Elisabeth, would have a baby. Elisabeth was barren previously so this would be a big miracle. He questioned the angel.
             </Modal.Description>
             <Divider hidden />
-            <a href="https://www.lds.org/study/scriptures/nt/luke/1.5-23,59-64?lang=eng#p5" target="_blank" rel="noopener noreferrer">Luke 1: 18-20</a>
+            <a href="https://www.lds.org/study/scriptures/nt/luke/1.18-20?lang=eng#p5" target="_blank" rel="noopener noreferrer">Luke 1: 18-20</a>
             <Divider hidden />
-            <iframe width="380" height="315" src="https://www.youtube.com/embed/YUVvTYLgoBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/YUVvTYLgoBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <Modal.Description>Thoughts?</Modal.Description>
             <Divider hidden />
             <a href="https://www.lds.org/study/scriptures/nt/luke/1.5-23,59-64?lang=eng#p5" target="_blank" rel="noopener noreferrer">Luke 1: 5-23, 59-64</a>
           </Modal>
-          <Modal trigger={<List.Item>Mary and Joseph</List.Item>} closeIcon>
+          <Modal trigger={<List.Item style={{marginLeft: '2vw', color: 'blue'}}>Mary and Joseph</List.Item>} closeIcon>
             <Modal.Header>
               Who are Mary and Joseph?
             </Modal.Header>
@@ -49,20 +49,22 @@ class Home extends Component {
             <Divider hidden />
             <Modal.Description><a href="https://www.lds.org/study/scriptures/nt/luke/1.26-56?lang=eng#p26" target="_blank" rel="noopener noreferrer">Luke 1:26-56</a></Modal.Description>
             <Divider hidden />
-            <iframe width="380" height="315" src="https://www.youtube.com/embed/Qq7NFiZL6ak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/Qq7NFiZL6ak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <Divider hidden />
             <Modal.Description>Notice that Mary questioned the angel as well, but was not punished like Zacharias. Why not?</Modal.Description>
             <Divider hidden />
           </Modal>
         </List>
         <br/><br/><br/><br/>
-        <Header as='h2'>"With God nothing shall be impossible"</Header>
+        <Header as='h2' style={{marginLeft: '1vw'}}>"With God nothing shall be impossible"</Header>
         <List animated verticalAlign="middle">
-          <List.Item>What does this mean to you?</List.Item>
+          <List.Item style={{marginLeft: '2vw'}}>What does this mean to you?</List.Item>
+          <List.Item style={{marginLeft: '2vw'}}>How can it change the way we think about callings that we have in church?</List.Item>
         </List>
+        <div style={{marginTop: "18vh"}}><Link style={{marginLeft: "4vw"}} to="/">Home</Link><a style={{marginLeft: "2vw"}} href="https://www.lds.org/study/manual/come-follow-me-for-sunday-school-new-testament-2019/02?lang=eng" target="_blank" rel="noopener noreferrer">Full Lesson Plan</a><Link style={{marginLeft: "2vw"}} to="/week1">Week 1</Link><Divider vertical hidden /><Link style={{marginLeft: "2vw"}} to="/week3">Week 3</Link></div>
       </div>
     );
   }
 }
 
-export default Home;
+export default Week2;
