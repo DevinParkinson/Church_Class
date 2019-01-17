@@ -13,6 +13,8 @@ class Week2 extends Component {
         <Header as="h2" textAlign="center">
           <a href="https://www.lds.org/study/scriptures/nt/luke/1?lang=eng" target="_blank" rel="noopener noreferrer">Luke 1</a>; <a href="https://www.lds.org/study/scriptures/nt/matt/1?lang=eng" target="_blank" rel="noopener noreferrer">Matthew 1</a>
         </Header>
+        <Header as="h2" style={{marginLeft: '1vw'}}>For starters, INTROS!!!</Header>
+        <Header as="h2" style={{marginLeft: '1vw'}}><Link to="/me">Information about me.</Link></Header>
         <Header as="h2" style={{marginLeft: '1vw'}}>
           Who are these people?
         </Header>
