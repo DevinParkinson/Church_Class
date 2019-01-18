@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div>
         <div style={{ backgroundImage: "url(https://www.followmeretreat.org/wp-content/uploads/2017/03/cropped-Jesus-Hand-Vanilla-2.jpg)", backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: "100vh", backgroundColor: "white", backgroundPosition: "center", position: "relative" }}>
-          <div style={{textAlign: "center", position: "absolute", top: "25%", left: "10%", color: "white"}}>
+          <div style={{textAlign: "center", position: "absolute", top: "25%", left: "5%", color: "white"}}>
             <TextLoop>
               <Header style={{color: "white", textSize: "10vh"}}>Hello 17 year old class!</Header>
               <Header style={{color: "white", textSize: "10vh"}}>Welcome to your own website for this year!</Header>
