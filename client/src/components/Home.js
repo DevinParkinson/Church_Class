@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Grid, Card } from 'semantic-ui-react';
+import { Header, Grid, Card, Button } from 'semantic-ui-react';
 import TextLoop from "react-text-loop"
 import { Link } from 'react-router-dom';
 
@@ -16,6 +16,13 @@ class Home extends Component {
             </TextLoop>
           </div>
           <Header style={{textAlign: "center", position: "absolute", top: "30%", left: "8%", color: "white", textSize: "8vh"}}>To Get Started, Click on the current week below.</Header>
+        </div>
+        <div style={{textSize: '10vh', textAlign: 'center'}}>
+          <Link to="/rules">
+            <Button style={{backgroundColor: 'transparent'}}>
+              Class Rules
+            </Button>
+          </Link>
         </div>
         <Grid columns={2}>
           <Grid.Row largeScreen={2} widescreen={1}>

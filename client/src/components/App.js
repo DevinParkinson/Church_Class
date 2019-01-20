@@ -12,6 +12,7 @@ import Week1 from './Week1'
 import Week2 from './Week2'
 import Week3 from './Week3'
 import Me from './Me'
+import Rules from './Rules'
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
             <Route exact path="/week2" component={Week2} />
             <Route exact path="/week3" component={Week3} />
             <Route exact path="/me" component={Me} />
+            <Route exact path="/rules" component={Rules} />
             <Route component={NoMatch} />
           </Switch>
         </FetchUser>

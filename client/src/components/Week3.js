@@ -24,7 +24,13 @@ class Week3 extends Component {
               Simeon
             </List.Item>
           </List>
-          <div style={{marginTop: "18vh"}}><Link style={{marginLeft: "4vw"}} to="/">Home</Link><a style={{marginLeft: "2vw"}} href="https://www.lds.org/study/manual/come-follow-me-for-sunday-school-new-testament-2019/03?lang=eng" target="_blank" rel="noopener noreferrer">Full Lesson Plan</a><Link style={{marginLeft: "2vw"}} to="/week1">Week 1</Link><Divider vertical hidden /><Link style={{marginLeft: "2vw"}} to="/week2">Week 2</Link></div>
+          <Divider hidden />
+          <div>
+            <Header as="h2" style={{marginLeft: '2vw'}}>
+              Jesus developed “in wisdom and stature, and in favour with God and man”? -discuss
+            </Header>
+          </div>
+          <div style={{marginTop: "18vh"}}><Link style={{marginLeft: "4vw"}} to="/">Home</Link><a style={{marginLeft: "2vw"}} href="https://www.lds.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2019/03?lang=eng" target="_blank" rel="noopener noreferrer">Full Lesson Plan</a><Link style={{marginLeft: "2vw"}} to="/week1">Week 1</Link><Divider vertical hidden /><Link style={{marginLeft: "2vw"}} to="/week2">Week 2</Link></div>
       </div>
     )
   }
