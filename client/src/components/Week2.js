@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, List, Modal, Divider } from 'semantic-ui-react';
+import { Header, List, Modal, Divider, Icon } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
 
@@ -63,7 +63,7 @@ class Week2 extends Component {
           <List.Item style={{marginLeft: '2vw'}}>What does this mean to you?</List.Item>
           <List.Item style={{marginLeft: '2vw'}}>How can it change the way we think about callings that we have in church?</List.Item>
         </List>
-        <div style={{marginTop: "18vh"}}><Link style={{marginLeft: "4vw"}} to="/week1">1</Link><a style={{marginLeft: "2vw"}} href="https://www.lds.org/study/manual/come-follow-me-for-sunday-school-new-testament-2019/02?lang=eng" target="_blank" rel="noopener noreferrer">Full Lesson Plan</a><Divider vertical hidden /><Link style={{marginLeft: "2vw"}} to="/week3">3</Link></div>
+        <div style={{marginTop: "18vh"}}><Link style={{marginLeft: "4vw"}} to="/week1"><Icon name="arrow left" /></Link><a style={{marginLeft: "2vw"}} href="https://www.lds.org/study/manual/come-follow-me-for-sunday-school-new-testament-2019/02?lang=eng" target="_blank" rel="noopener noreferrer"><Icon name="book" /></a><Link style={{marginLeft: "2vw"}} to="/"><Icon name="home"/></Link><Divider vertical hidden /><Link style={{marginLeft: "2vw"}} to="/week3"><Icon name="arrow right"/></Link></div>
       </div>
     );
   }
