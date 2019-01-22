@@ -49,6 +49,13 @@ class Home extends Component {
                 </Card.Content>
               </Link>
             </Grid.Column>
+            <Grid.Column>
+              <Link to="/week4">
+                <Card.Content style={{backgroundImage: 'url(https://mobile-cdn.lds.org/30/dc/30dcec403ab5982e84ef83351fa9a529e97a1490/jehovah_creates_earth_rane.jpeg)', backgroundRepeat: 'no-repeat', backgroundSize: 'contain'}}>
+                  <div style={{height: '25vw', width: 'auto', color: 'white', fontSize: '16px'}}>Week 4: January 21-27</div>
+                </Card.Content>
+              </Link>
+            </Grid.Column>
           </Grid.Row>
         </Grid>
       </div>

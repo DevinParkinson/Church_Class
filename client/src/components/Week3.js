@@ -33,7 +33,7 @@ class Week3 extends Component {
             <a href="https://www.lds.org/study/scriptures/dc-testament/dc/93.13?context=12-14?lang=eng&context=12-14#p13" target="_blank" rel="noopener noreferrer">D&C 93:12-14</a>
             <p>How does it make a difference to us that Christ went from grace to grace?</p>
           </div>
-          <div style={{marginTop: "18vh"}}><Link style={{marginLeft: "4vw"}} to="/"><Icon name="home" /></Link><a style={{marginLeft: "2vw"}} href="https://www.lds.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2019/03?lang=eng" target="_blank" rel="noopener noreferrer"><Icon name="book" /></a><Divider vertical hidden /><Link style={{marginLeft: "2vw"}} to="/week2"><Icon name="arrow left" /></Link></div>
+          <div style={{marginTop: "18vh"}}><Link style={{marginLeft: "4vw"}} to="/"><Icon name="home" /></Link><a style={{marginLeft: "2vw"}} href="https://www.lds.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2019/03?lang=eng" target="_blank" rel="noopener noreferrer"><Icon name="book" /></a><Divider vertical hidden /><Link style={{marginLeft: "2vw"}} to="/week2"><Icon name="arrow left" /></Link><Link style={{marginLeft: "2vw"}} to="/week4"><Icon name="arrow right"/></Link></div>
       </div>
     )
   }
