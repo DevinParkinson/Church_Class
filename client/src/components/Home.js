@@ -57,6 +57,15 @@ class Home extends Component {
               </Link>
             </Grid.Column>
           </Grid.Row>
+          <Grid.Row largeScreen={2} widescreen={1}>
+            <Grid.Column>
+              <Link to="week5">
+                <Card.Content style={{backgroundImage: 'url(https://mobile-cdn.lds.org/17/fe/17fe6804f0b6c03dbb4aff355b8ae50ba2b551f4/nauvoo_temple_christ_baptism_lds.jpeg)', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', width: '30vw', marginLeft: '8vw'}}>
+                  <div style={{height: '25vw', width: 'auto', color: 'white', fontSize: '16px'}}>Week 5: January 28-February 3</div>
+                </Card.Content>
+              </Link>
+            </Grid.Column>
+          </Grid.Row>
         </Grid>
       </div>
     );
